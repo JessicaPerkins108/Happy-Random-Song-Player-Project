@@ -1,1 +1,3 @@
-# Happy-Random-Song-Player-Project
+# Happy-Random-Song-Player
+
+this app uses unsplash and spotify

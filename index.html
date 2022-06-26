@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Happy Song Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1 id="title"> SONGS THAT WILL MAKE YOU HAPPY </h1>
+            <div class="song-player">
+                <iframe class="spotify-embed" style="border-radius:12px" 
+                 src="https://open.spotify.com/embed/track/32OlwWuMpZ6b0aN2RZOeMS?utm_source=generator&theme=0"
+                 width="100%" height="380" frameBorder="0" 
+                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+                </iframe>
+            </div>
+            <button id="random-song-btn"> <span>MAKE ME HAPPY!</span> </button>
+        </div>
+        <p class="imageDetails">Photo by <a id="creator" href="#" target="_blank">NAME</a> on <a href="https://www.unsplash.com" target="_blank">Unsplash</a>!</p>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
+
+
+
+<!--
+
+    Future thoughts for both Margaret and Jess:
+    Create an Unsplash dataset of specific images to pull through the Unsplash API
+    With Margaret: Add Margaret's linear background into the random image background 
+    Add an input search element that the user can type into and retrieve a selection of songs by input keyword from Spotify
+    Add an autoplayer feature to the embedded music player
+-
